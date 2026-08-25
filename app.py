@@ -85,43 +85,43 @@ def get_account_credentials(region: str) -> str:
     r = region.upper()
 
     if r == "IND":
-        return "uid=4732484418&password=ADD_HERE"
+        return "uid=4732484418&password=BP_E7AKQ4YVHCB"
 
     elif r in {"BR", "US", "SAC", "NA"}:
-        return "uid=4774366356&password=ADD_HERE"
+        return "uid=4774366356&password=UNCOMMON-7AAL7W1Z6-CORE"
 
     elif r == "VN":
-        return "uid=4737714557&password=ADD_HERE"
+        return "uid=4737714557&password=xMaSrY_5Pk5Wqyr_lgb"
 
     elif r == "SG":
-        return "uid=4737718961&password=ADD_HERE"
+        return "uid=4737718961&password=xMaSrY_fWkmTbea_zca"
 
     elif r == "ID":
-        return "uid=4737720872&password=ADD_HERE"
+        return "uid=4737720872&password=xMaSrY_bfZlbaoK_Iqt"
 
     elif r == "TH":
-        return "uid=4774298073&password=ADD_HERE"
+        return "uid=4774298073&password=UNCOMMON-PVFSS7AQR-CORE"
 
     elif r == "TW":
-        return "uid=4774314170&password=ADD_HERE"
+        return "uid=4774314170&password=UNCOMMON-7KPK0SBGG-CORE"
 
     elif r == "BD":
-        return "uid=4774322299&password=ADD_HERE"
+        return "uid=4774322299&password=UNCOMMON-0NYV9REVC-CORE"
 
     elif r == "PK":
-        return "uid=4774330898&password=ADD_HERE"
+        return "uid=4774330898&password=UNCOMMON-3YP9O6AQA-CORE"
 
     elif r == "ME":
-        return "uid=4774339389&password=ADD_HERE"
+        return "uid=4774339389&password=UNCOMMON-2YE6FUEYD-CORE"
 
     elif r == "RU":
-        return "uid=4774345536&password=ADD_HERE"
+        return "uid=4774345536&password=UNCOMMON-0VCU5OSI7-CORE"
 
     elif r == "CIS":
-        return "uid=4774350397&password=ADD_HERE"
+        return "uid=4774350397&password=UNCOMMON-UNB5CY7KS-CORE"
 
-    elif r == "EUROPE":  #  Fallback to MENA Server ID
-        return "uid=4774375811&password=ADD_HERE"
+    elif r == "EUROPE":  #  ME SERVER ID GIVEN
+        return "uid=4774375811&password=UNCOMMON-UEYUPSJGC-CORE"
 
     else:
         # fallback to ucguest.txt
