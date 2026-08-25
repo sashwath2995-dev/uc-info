@@ -37,7 +37,7 @@ SUPPORTED_REGIONS = [
 
 # ---------- API KEY SYSTEM ----------
 
-API_KEY = "UCxGAMER"
+API_KEY = "RAM-SAGAR"
 
 # ---------- App Setup ----------
 
